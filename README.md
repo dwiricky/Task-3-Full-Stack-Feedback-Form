@@ -2,6 +2,7 @@
 # Panduan Sistem Ulasan Produk
 
 Dokumen ini menjelaskan alur kerja dan panduan teknis untuk fitur-fitur utama pada aplikasi, khususnya yang berkaitan dengan manajemen produk dan ulasan.
+UNTUK MEMULAI LARAVEL JANGAN LUPA "npm run dev"
 
 ## Daftar Isi
 1.  [Alur Kerja Utama](#1-alur-kerja-utama)
