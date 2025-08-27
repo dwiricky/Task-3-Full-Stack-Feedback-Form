@@ -1,0 +1,56 @@
+
+        .product-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .product-image img {
+            max-width: 100%;
+            height: 300px;
+        }
+        .card-body .price {
+            font-size: 1.5rem;
+            color: #7C8046;
+        }
+        .rating {
+            display: flex;
+            align-items: center;
+        }
+        .rating .stars {
+            color: #ffc107;
+            margin-right: 5px;
+        }
+        .kategori {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .kategori .bold {
+            font-weight: bold;
+        }
+        .review-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .review-date {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .review-text {
+            font-size: 1rem;
+        }
+
+        .card-text .bold {
+            font-weight: bold;
+        }
+
+        .rating i {
+            font-size: 2rem;
+            color: #ccc;
+            cursor: pointer;
+        }
+        
+        .rating i.selected,
+        .rating i.hovered {
+            color: #f0ad4e;
+        }
+        

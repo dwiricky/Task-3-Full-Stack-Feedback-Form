@@ -1,0 +1,63 @@
+
+        .transaction-card {
+            border: 2px solid #7C8046;
+            border-radius: 15px;
+            transition: box-shadow 0.3s;
+            margin-top: 20px;
+        }
+        .transaction-card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .transaction-header {
+            background-color: #e6c7ab;
+            border-bottom: 2px solid #7C8046;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            padding: 15px;
+        }
+        .transaction-body {
+            padding: 20px;
+        }
+        .total-price {
+            font-size: 1.5rem;
+            color: #7C8046;
+        }
+        .btn-pay {
+            background-color: #93D459;
+            color: white;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .quantity-control {
+            display: flex;
+            align-items: center;
+        }
+        .quantity-control input {
+            width: 60px;
+            text-align: center;
+            margin: 0 10px;
+            -moz-appearance: textfield; /* Firefox */
+        }
+        .quantity-control input::-webkit-outer-spin-button,
+        .quantity-control input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        .btn-quantity {
+            background: none;
+            color: #93D459;
+            font-size: 1.5rem;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+        .form-control-no-border {
+            border: none;
+            border-bottom: 1px solid #ced4da;
+            border-radius: 0;
+            outline: none;
+        }
+        .product-image {
+            max-width: 200px;
+        }

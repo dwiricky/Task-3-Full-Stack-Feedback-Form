@@ -1,0 +1,89 @@
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-image img {
+    width: 40%;
+    height: 200px; /* Atur tinggi gambar sesuai kebutuhan */
+    object-fit: cover;
+}
+.card-body .price {
+    font-size: 1.5rem;
+    color: #7C8046;
+}
+.rating {
+    display: flex;
+    align-items: center;
+}
+.rating .stars {
+    color: #ffc107;
+    margin-right: 5px;
+}
+.search-container {
+    position: relative;
+}
+.search-container input {
+    padding-left: 2.9rem;
+}
+.search-container .bi-search {
+    position: absolute;
+    top: 68%;
+    left: 19px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 1.5rem; /* Ukuran ikon disesuaikan */
+    color: #ced4da; /* Atur warna ikon sesuai kebutuhan */
+}
+.search-container .search-icon {
+    border-right: 1px solid #ced4da;
+    padding-right: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s;
+}
+.card:hover {
+    background-color: #f0f0f0; 
+}
+.card-body {
+    flex-grow: 1;
+}
+.product-description {
+    flex-grow: 1;
+}
+
+.cart-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(-20px);
+    font-size: 2rem;
+    color: white;
+    background: orange;
+    border-radius: 20%;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.card:hover .cart-icon {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0);
+}
+
+.btn-buy {
+    background-color: green;
+    color: white;
+    margin-left: 10px;
+}

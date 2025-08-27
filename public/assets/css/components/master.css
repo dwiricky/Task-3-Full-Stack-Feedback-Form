@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Romman";
+    src: url("../../fonts/RTL-Romman-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --coklat : #E6C7AB;
+    --coklat-gelap: #BC6C25;
+    --coklat-terang: #DDA15E;
+    --hijau-gelap: #283618;
+    --hijau-terang: #606C38;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.btn-coklat {
+    border-color: var(--coklat)!important;
+    background-color: var(--coklat)!important;
+    color: white!important;
+    a {
+        color: white!important;
+    }
+}
+.btn-coklat:hover {
+    border-color: var(--coklat)!important;
+    background-color: transparent!important;
+    color: var(--coklat)!important
+}
+.border-coklat-gelap {
+    border-color: var(--coklat-gelap)!important;
+}
+.btn-coklat-gelap {
+    border-color: var(--coklat-gelap)!important;
+    background-color: var(--coklat-gelap)!important;
+    color: white!important;
+    a {
+        color: white!important;
+    }
+}
+.btn-coklat-gelap:hover {
+    border-color: var(--coklat-gelap)!important;
+    background-color: transparent!important;
+    color: var(--coklat-gelap)!important
+}
+.btn-outline-coklat-gelap {
+    border-color: var(--coklat-gelap)!important;
+    color: var(--coklat-gelap)!important
+}
+.btn-outline-coklat-gelap a {
+    color: var(--coklat-gelap)!important;
+}
+
+.btn-outline-coklat-gelap:hover {
+    background: var(--coklat-gelap)!important;
+}
+.btn-outline-coklat-gelap:hover {
+    color: white!important;
+    a {
+        color: white!important;
+    }
+}
+.bg-coklat {
+    background-color: #E6C7AB;
+}
+.bg-coklat-gelap {
+    background-color: var(--coklat-gelap);
+}
+.text-coklat-gelap {
+    color: var(--coklat-gelap);
+}
+.brand-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+}
+.brand-description {
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .brand-title {
+        font-size: 50px;
+    }
+}

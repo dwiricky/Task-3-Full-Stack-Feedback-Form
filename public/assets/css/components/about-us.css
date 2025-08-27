@@ -1,0 +1,84 @@
+.tentang-section {
+    background: #E6C7AB;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tentang-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.tentang-content img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 2rem;
+}
+
+.tentang-description {
+    flex: 1;
+}
+
+.tentang-description h3 {
+    font-size: 29px;
+    color: #B17330;
+    margin-bottom: 0.2rem;
+}
+
+.tentang-description p {
+    font-size: 19px;
+    text-align: justify;
+}
+
+.tentang-description ul {
+    list-style: none;
+    padding: 0;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.tentang-description ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.tentang-description ul li i {
+    margin-right: 0.5rem;
+    color: #7C8046;
+}
+
+.lihat-produk-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #7C8046;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .tentang-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tentang-content img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .tentang-description ul {
+        padding-left: 0;
+    }
+}
